@@ -7,7 +7,7 @@ class SwiftFormat < Formula
   depends_on :xcode => ["11.0", :build]
 
   def install
-    system "swift", "build", "-c", "release"
+    system "swift", "build", "-c", "release", "--disable-sandbox"
     system "install", ".build/release/swift-format", prefix
   end
 
