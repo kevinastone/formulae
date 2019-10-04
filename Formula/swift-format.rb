@@ -8,7 +8,7 @@ class SwiftFormat < Formula
 
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"
-    bin.install, ".build/release/swift-format"
+    bin.install ".build/release/swift-format"
   end
 
   test do
