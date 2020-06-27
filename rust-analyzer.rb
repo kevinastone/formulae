@@ -1,9 +1,9 @@
 class RustAnalyzer < Formula
   desc "Rust-analyzer is an implementation of Language Server Protocol for the Rust programming language"
   homepage "https://rust-analyzer.github.io"
-  version "2020-06-15"
+  version "2020-06-22"
   url "https://github.com/rust-analyzer/rust-analyzer/releases/download/#{version}/rust-analyzer-mac"
-  sha256 "d4218daf0a8c306af95f22c89251554f6b6a291609fcf25a1f39abbcc9a2bcf3"
+  sha256 "d5514b15003c2326fe644f74e5fa39ae6f6ed318633b6095f6083866f74ac450"
 
   # depends_on "rust" => :build
 
